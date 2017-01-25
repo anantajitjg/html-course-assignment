@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+    color: #575757;
+    font-size: 1.85em;
+    text-align: center;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto 7%;
+    background-color: #456e81;
+    color: #fff;
+    border: 1px solid #000;
+    position: relative;
+}
+
+section p {
+    font-size: 1.1em;
+    padding: 5px 25px;
+    margin-top: 41px;
+}
+
+.item-title {
+    font-size: 1.35em;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 5px 32px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#item1 {
+    background-color: #b06868;
+}
+
+#item2 {
+    background-color: #3C835D;
+}
+
+#item3 {
+    background-color: #e0da62;
+    color: #000;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* For targeting Desktop Devices */
+
+@media (min-width: 992px) {
+    .dgrid-1, .dgrid-2, .dgrid-3, .dgrid-4, .dgrid-5, .dgrid-6, .dgrid-7, .dgrid-8, .dgrid-9, .dgrid-10, .dgrid-11, .dgrid-12 {
+        float: left;
+    }
+    .dgrid-1 {
+        width: 8.33%;
+    }
+    .dgrid-2 {
+        width: 16.66%;
+    }
+    .dgrid-3 {
+        width: 25%;
+    }
+    .dgrid-4 {
+        width: 33.33%;
+    }
+    .dgrid-5 {
+        width: 41.66%;
+    }
+    .dgrid-6 {
+        width: 50%;
+    }
+    .dgrid-7 {
+        width: 58.33%;
+    }
+    .dgrid-8 {
+        width: 66.66%;
+    }
+    .dgrid-9 {
+        width: 74.99%;
+    }
+    .dgrid-10 {
+        width: 83.33%;
+    }
+    .dgrid-11 {
+        width: 91.66%;
+    }
+    .dgrid-12 {
+        width: 100%;
+    }
+}
+
+
+/* For targeting Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tgrid-1, .tgrid-2, .tgrid-3, .tgrid-4, .tgrid-5, .tgrid-6, .tgrid-7, .tgrid-8, .tgrid-9, .tgrid-10, .tgrid-11, .tgrid-12 {
+        float: left;
+    }
+    .tgrid-1 {
+        width: 8.33%;
+    }
+    .tgrid-2 {
+        width: 16.66%;
+    }
+    .tgrid-3 {
+        width: 25%;
+    }
+    .tgrid-4 {
+        width: 33.33%;
+    }
+    .tgrid-5 {
+        width: 41.66%;
+    }
+    .tgrid-6 {
+        width: 50%;
+    }
+    .tgrid-7 {
+        width: 58.33%;
+    }
+    .tgrid-8 {
+        width: 66.66%;
+    }
+    .tgrid-9 {
+        width: 74.99%;
+    }
+    .tgrid-10 {
+        width: 83.33%;
+    }
+    .tgrid-11 {
+        width: 91.66%;
+    }
+    .tgrid-12 {
+        width: 100%;
+    }
+    .tgrid-12 section {
+        width: 95%;
+    }
+}
+
+
+/* For targeting Mobiles */
+
+@media (max-width: 767px) {
+    .mgrid-1, .mgrid-2, .mgrid-3, .mgrid-4, .mgrid-5, .mgrid-6, .mgrid-7, .mgrid-8, .mgrid-9, .mgrid-10, .mgrid-11, .mgrid-12 {
+        float: left;
+    }
+    .mgrid-1 {
+        width: 8.33%;
+    }
+    .mgrid-2 {
+        width: 16.66%;
+    }
+    .mgrid-3 {
+        width: 25%;
+    }
+    .mgrid-4 {
+        width: 33.33%;
+    }
+    .mgrid-5 {
+        width: 41.66%;
+    }
+    .mgrid-6 {
+        width: 50%;
+    }
+    .mgrid-7 {
+        width: 58.33%;
+    }
+    .mgrid-8 {
+        width: 66.66%;
+    }
+    .mgrid-9 {
+        width: 74.99%;
+    }
+    .mgrid-10 {
+        width: 83.33%;
+    }
+    .mgrid-11 {
+        width: 91.66%;
+    }
+    .mgrid-12 {
+        width: 100%;
+    }
+}
