@@ -1,0 +1,80 @@
+/* ---------- Custom Styles ----------*/
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+/* Header and Navigation */
+
+.navbar {
+    min-height: 59px;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #ccc;
+    border-color: #aeaeae;
+}
+
+.navbar-default .navbar-brand {
+    color: #222;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #909090;
+    background-color: #939393;
+    margin-top: 9px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #DEDEDE;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #545454;
+    background-color: #a2a2a2;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #939393;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #D2D2D2;
+}
+
+@media (min-width: 768px) {
+    #nav-menu-item {
+        display: none !important;
+    }
+}
+
+
+/* Main content or Menu items */
+
+.item-section {
+    background: #ccc;
+    margin: 10px 10px 25px;
+    padding: 12px;
+}
+
+.item-section p {
+    padding: 0px 20px;
+}
+
+
+/* Miscellaneous */
+
+.page-header {
+    border-bottom: none;
+    font-weight: bold;
+    color: #545454;
+}
