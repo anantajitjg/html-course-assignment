@@ -6,3 +6,4 @@ This repository contains the solutions for the assignment for [HTML, CSS, and Ja
 - [Assignment 2](https://anantajitjg.github.io/html-course-assignment/assignment2/)
 - [Assignment 3](https://anantajitjg.github.io/html-course-assignment/assignment3/)
 - [Assignment 4](https://anantajitjg.github.io/html-course-assignment/assignment4/)
+- [Assignment 5](https://anantajitjg.github.io/html-course-assignment/assignment5/)
